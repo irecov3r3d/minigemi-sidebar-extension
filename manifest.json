@@ -3,6 +3,7 @@
   "name": "MiNiGeMi Sidebar",
   "version": "1.0",
   "permissions": ["sidePanel", "tabs", "scripting", "activeTab"],
+  "host_permissions": ["*://*.google.com/*", "*://*.claude.ai/*", "*://*.chatgpt.com/*"],
   "background": {
     "service_worker": "background.js"
   },
