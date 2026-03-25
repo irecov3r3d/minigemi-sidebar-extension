@@ -2,7 +2,17 @@
   "manifest_version": 3,
   "name": "MiNiGeMi Sidebar",
   "version": "1.0",
-  "permissions": ["sidePanel", "tabs", "scripting", "activeTab"],
+  "permissions": [
+    "sidePanel",
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*",
+    "https://claude.ai/*",
+    "https://chatgpt.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
