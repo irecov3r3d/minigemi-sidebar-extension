@@ -1,0 +1,3 @@
+## 2026-05-28 - Label Associations and Box Sizing
+**Learning:** In vanilla HTML extensions where inline styling is heavily used, missing `box-sizing: border-box` alongside `width: 100%` and padding frequently causes horizontal overflow issues in constrained environments like side panels. Explicitly associating a label with its corresponding input using the `for` attribute is also commonly overlooked.
+**Action:** Always check `width: 100%` on inputs and buttons with padding to ensure `box-sizing: border-box` is applied, specifically in extension side panels. Ensure all floating labels use the `for` attribute for screen reader accessibility.
